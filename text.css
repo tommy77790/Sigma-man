@@ -1,0 +1,91 @@
+@import url (' https fonts googleapis com css family poppins ');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: aliceblue;
+text-decoration: none;
+
+}
+
+body{
+    background-image: linear-gradient(#01022d,#000);
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+align-items: center;
+}
+.container{
+    background-image:
+    linear-gradient(#01022d64,#01022d89),
+url(t4.jpg.jpeg);
+background-repeat: no-repeat
+
+    ;
+    width: 95%;
+height: 900px;
+background-size: 100%;
+
+}
+.container:hover{
+    background-image:
+    linear-gradient(to right,#01022d86,transparent),
+url(t4.jpg.jpeg);
+background-repeat: no-repeat
+
+    ;
+    width: 95%;
+height: 900px;
+background-size: 100%;
+
+}
+
+header{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+
+}
+.logo{
+    font-size:60px;
+text-transform: uppercase;
+
+
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+justify-content: space-evenly;
+
+}
+
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color:white;
+}
+.content{
+ color: white;
+    width: 30%;
+    margin-top: 50px;
+    padding: 40px;
+}
+.content h2{
+    font-size: 55px;
+    text-transform: uppercase;
+
+}
+
+.content p{
+    letter-spacing: 4px;
+}
+.content button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
